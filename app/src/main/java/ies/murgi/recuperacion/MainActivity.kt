@@ -354,7 +354,3 @@ fun Buton() {
         }
     }
 
-
-data class Midataclass(val title: String, var isChecked: Boolean = false) {
-    var isCheckedState = mutableStateOf(isChecked)
-}
